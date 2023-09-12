@@ -1,0 +1,121 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    color: green;
+    margin-top: 20px;
+}
+
+/* Form styles */
+#upload-form {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+#file-input {
+    display: block;
+    margin: 10px auto;
+}
+
+button[type="submit"] {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #007700;
+}
+
+/* Result styles */
+#result {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#prediction {
+    font-size: 18px;
+    color: green;
+}
+
+#confidence {
+    font-size: 16px;
+    color: green;
+    margin-top: 10px;
+}
+
+/* Alert styles */
+.alert {
+    background-color: #ffcccc;
+    color: #cc0000;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#result {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 80%;
+}
+
+#uploaded-image {
+    display: block;
+    margin: 20px auto; /* Center the image horizontally */
+    max-width: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add a faint box shadow */
+}
+
+#prediction {
+    font-size: 18px;
+    color: green;
+}
+
+#confidence {
+    font-size: 16px;
+    color: green;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    padding: 20px;
+}
+
+.footer-container p {
+    margin: 0;
+}
+
+/* GitHub logo styles */
+.footer-container img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
