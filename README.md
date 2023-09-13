@@ -10,8 +10,6 @@ Welcome to the Bell Pepper Bacterial Infection Detection project! This project u
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 This project aims to provide a user-friendly interface for detecting bacterial infections in bell peppers using a pre-trained TensorFlow model. Users can upload images of bell peppers, and the model will predict whether the peppers are healthy or infected.
