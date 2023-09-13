@@ -2,6 +2,8 @@
 
 Welcome to the Bell Pepper Bacterial Infection Detection project! This project utilizes a TensorFlow model trained on a Kaggle dataset to classify images of bell peppers as either having a bacterial infection or being healthy. The project consists of a FastAPI backend for serving the model and a simple HTML, CSS, and JavaScript frontend for user interaction.
 
+![Example Image](frontend/img/read_me_example.JPG)
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Requirements](#requirements)
