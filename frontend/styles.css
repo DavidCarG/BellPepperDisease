@@ -1,37 +1,34 @@
-/* Body styles */
 body::before {
     content: "";
-    background-image: url('img/bell-peppers-bg.jpg'); /* Replace with your image URL */
+    background-image: url('img/bell-peppers-bg.jpg');
     background-size: cover;
     background-position: center;
-    filter: blur(10px); /* Adjust the blur level as needed */
+    filter: blur(10px); 
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1; /* Place the pseudo-element behind everything */
+    z-index: -1; 
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: transparent; /* Set body background to transparent */
+    background-color: transparent; 
     margin: 0;
     padding: 0;
-    position: relative; /* Add this for stacking context */
+    position: relative;
 }
-/* Header styles */
+
 h1 {
     text-align: center;
     color: green;
     margin-top: 20px;
-    background-color: white; /* Set the background color to white */
-    padding: 10px 20px; /* Add padding to create some space around the text */
-    border-radius: 20px; /* Set the border-radius for rounded corners */
-
+    background-color: white; 
+    padding: 10px 20px; 
+    border-radius: 20px; 
 }
 
-/* Form styles */
 #upload-form {
     text-align: center;
     margin: 20px auto;
@@ -56,7 +53,6 @@ button[type="submit"]:hover {
     background-color: #007700;
 }
 
-/* Result styles */
 #result {
     text-align: center;
     margin: 20px auto;
@@ -78,7 +74,6 @@ button[type="submit"]:hover {
     margin-top: 10px;
 }
 
-/* Alert styles */
 .alert {
     background-color: #ffcccc;
     color: #cc0000;
